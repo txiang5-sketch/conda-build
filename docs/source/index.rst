@@ -1,34 +1,17 @@
-Conda-build documentation
-=========================
-
-Conda-build contains commands and tools to build your own
-conda packages.
-It also provides helpful tools to constrain or pin
-versions in recipes. Building a conda package requires
-:doc:`installing conda-build <install-conda-build>` and
-creating a conda :doc:`recipe <concepts/recipe>`.
-You then use the ``conda build`` command to build the conda package
-from the conda recipe.
-
-You can build conda packages from a variety of source code
-projects, most notably Python. For help packing a Python project,
-see the `packaging.python.org tutorial`_.
-
-OPTIONAL: If you are planning to upload your packages to
-`anaconda.org`_, you will need to make an anaconda.org account and
-`install the Anaconda client`_.
-
-.. toctree::
-   :maxdepth: 1
-
-   install-conda-build
-   concepts/index
-   user-guide/index
-   resources/index
-   release-notes
-   contributing-guide
-
-
-.. _`packaging.python.org tutorial`: https://packaging.python.org/en/latest/tutorials/packaging-projects
-.. _`anaconda.org`: https://anaconda.org
-.. _`install the Anaconda client`: https://docs.anaconda.com/anaconda/install/
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+geopandas=0.14.2
+matplotlib-base=3.8.4
+matplotlib-inline=0.1.6
+numpy=1.26.4
+pandas=2.2.2
+pandas-datareader=0.10.0
+requests=2.32.3
+seaborn=0.13.2
+shapely=2.0.1
+statsmodels=0.14.2
+plotly=5.22.0
+nbformat=5.3.0
+ipykernel=6.28.0
+jupyterlab=4.0.11
